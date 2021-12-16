@@ -1,0 +1,175 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: darkgray;
+  min-height: 80vh;
+}
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  padding: 0;
+  width: 95%;
+}
+header .navbar {
+  background-color: rgb(72, 104, 136);
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  display: flex;
+}
+.home img {
+  width: 100%;
+}
+.logotext {
+  font-weight: bolder;
+  margin-left: 10px;
+  color: snow;
+  font-size: 1.75rem;
+}
+.telicon img {
+  margin-left: 22px;
+  width: 20px;
+  margin-top: 10px;
+}
+.searchbox {
+  position: relative;
+  margin-left: 350px;
+  margin-bottom: 91px;
+  margin-top: 0px;
+}
+img .searchicon {
+  position: relative;
+  align-content: center;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  right: -141px;
+  width: 20px;
+  top: -20px;
+}
+form img {
+  position: absolute;
+  width: 20px;
+  margin-left: -27px;
+  margin-top: 36px;
+  margin-bottom: 15px;
+}
+.flex {
+  display: flex;
+}
+.heading {
+  position: absolute;
+  color: azure;
+  top: 43%;
+  left: 86%;
+  font-size: 16px;
+}
+.heading-2 {
+  position: absolute;
+  color: azure;
+  top: 43%;
+  left: 95%;
+  font-size: 16px;
+}
+
+h1 {
+  right: 30px;
+  color: rgb(31, 32, 32);
+  margin-left: 0px;
+  margin-top: 13px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+input {
+  background-color: darkgray;
+  margin-top: 35px;
+}
+
+.heading1 {
+  font-weight: bolder;
+  font-size: 1.9rem;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 40px;
+}
+
+p {
+  position: relative;
+  top: 0px;
+  right: 17%;
+  font-size: 0.9rem;
+  text-align: center;
+}
+img.tailer {
+  position: relative;
+  top: 2%;
+  left: 45%;
+  width: 40px;
+}
+img.star {
+  position: relative;
+  right: 93%;
+  top: 0%;
+  width: 4%;
+  left: 15px;
+}
+.movie .image {
+  width: 280px;
+  margin: 10px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-align: center;
+  color: rgb(31, 32, 32);
+  margin-left: 0;
+  margin-top: 45px;
+  margin-bottom: 13px;
+}
+h3 {
+  color: rgb(70, 69, 69);
+  font-size: 0.6rem;
+  margin-left: 52px;
+}
+span {
+  margin-left: 14px;
+  font-size: 20px;
+}
+.footertext {
+  font-weight: bolder;
+  margin-left: 10px;
+  color: rgb(36, 35, 35);
+  font-size: 1.75rem;
+}
+.teleg-icon {
+  margin-bottom: 53px;
+  background-color: rgb(168, 166, 166);
+  width: 20px;
+  margin-left: 115px;
+  margin-top: -53px;
+}
+.long-line {
+  color: rgb(29, 28, 28);
+  width: 90%;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+.short-line {
+  width: 250px;
+  color: rgb(6, 207, 6);
+}
+.like-button {
+  position: absolute;
+  float: right;
+  border-radius: 50%;
+  margin-left: 265px;
+  margin-top: 15px;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(236, 145, 133);
+}
